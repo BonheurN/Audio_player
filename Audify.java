@@ -33,7 +33,10 @@ public class Audify {
 			case("Q"): clip.close();
 			break;
 			default: System.out.println("This is an invalid response");
-			}
+			} scanner.close();
+		}
+	}
+}
 			
 		}
 		System.out.println("Byee");
